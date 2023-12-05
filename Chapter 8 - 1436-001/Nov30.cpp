@@ -5,6 +5,7 @@ using namespace std;
 
 int main()
 {
+    //int a
     //array == list
 
     int theNumber = 1; //variable can vary
@@ -22,6 +23,7 @@ int main()
 
     //cout << groceryList[0] << endl; 
     groceryList.push_back("peas");
+    groceryList.push_back("corn");
     //cout << groceryList.size() << endl; 
     for (int i = 0; i < groceryList.size(); i++)
     {
